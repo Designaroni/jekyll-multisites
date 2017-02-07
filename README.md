@@ -4,7 +4,7 @@ Jekyll Multisites allows granular control over sharing codebases, plugins, files
 
 ### Purpose
 
-The purpose of `jekyll-multisites` is to demonstrate the capabilities of Jekyll as a tool for sharing assets across multiple builds. HTML, CSS, JavaScript, image assets, plugins & gems can be shared as the source files for ia system of websites.   
+The purpose of `jekyll-multisites` is to demonstrate the capabilities of Jekyll as a tool for sharing assets across multiple builds. HTML, CSS, JavaScript, image assets, plugins & gems can be shared as the source files for a system of websites.   
 
 ### Usage
 
