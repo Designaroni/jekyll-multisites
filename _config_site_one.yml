@@ -21,6 +21,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - sites/siteTwo
+  - README.md
 # any folder with and underscore is excluded by default, any folder without is included by default
 # included folders with the same name get merged together
 ### config variables from plugins
