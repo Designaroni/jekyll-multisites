@@ -1,0 +1,33 @@
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  {{ content }}
+
+  <h3>Site Two Posts</h3>
+  <ul class="post-list">
+
+    {% assign tagnames = "sitetwo" | split: ' ' %}
+    {% include _global/_modules/multipleTagPosts.html %}
+
+  </ul>
+
+  <h3>Multiple Tagnames Posts</h3>
+  <ul class="post-list">
+
+    {% assign tagnames = "global sitetwo" | split: ' ' %}
+    {% include _global/_modules/multipleTagPosts.html %}
+
+  </ul>
+
+  <h3>Global Tagnames Posts</h3>
+  <ul class="post-list">
+
+    {% assign tagnames = "global" | split: ' ' %}
+    {% include _global/_modules/multipleTagPosts.html %}
+
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</div>

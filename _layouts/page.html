@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% if site.domain.size %}
+  {% if site.domain == 'siteone.com' %}
+    {% include _siteOne/_layouts/_page.html %}
+  {% elsif site.domain == 'sitetwo.com' %}
+    {% include _siteTwo/_layouts/_page.html %}
+  {% endif %}
+{% endif %}

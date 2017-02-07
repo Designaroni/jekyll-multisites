@@ -1,0 +1,6 @@
+_dist
+.sass-cache
+.jekyll-metadata
+.swp
+.DS_Store
+*.notes.*

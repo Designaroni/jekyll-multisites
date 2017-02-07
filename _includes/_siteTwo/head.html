@@ -1,0 +1,8 @@
+<head>
+  {% include _global/meta.html %}
+  {% include _siteTwo/css.html%}
+  {% include _global/links.html %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
+    {% include _global/google-analytics.html %}
+  {% endif %}
+</head>
