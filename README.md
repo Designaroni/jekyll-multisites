@@ -23,7 +23,3 @@ $ bundle exec jekyll serve --config _config_site_two.yml
 ### Inspiration
 
 Inspiration for this project came out of a need to share modular web components across a system of sites, Branding assets, shared call to action banners, modules of custom html, css & javscript & shared vendor assets.
-
-### Default Application Structure
-
-... I'll get there don't worry, in the mean time shoot me a message on twitter [@designaroni](https://twitter.com/designaroni)
